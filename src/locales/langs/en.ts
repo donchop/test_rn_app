@@ -15,8 +15,11 @@ export default {
       userNamePlaceholder: 'Enter username',
       passwordPlaceholder: 'Enter password',
     },
+    homeScreen: {
+      btn: 'Go to login',
+    },
     loginScreen: {
-      login: 'Login',
+      btn: 'Login',
     },
   },
-};
+}

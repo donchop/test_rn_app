@@ -1,4 +1,4 @@
-import { HomeScreen } from './home'
-import { LoginScreen } from './login'
+import { ProfileScreen } from './profile'
+export * from './auth'
 
-export { HomeScreen, LoginScreen }
+export { ProfileScreen }

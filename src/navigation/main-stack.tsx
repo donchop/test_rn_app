@@ -4,11 +4,11 @@ import {
   createStackNavigator,
 } from '@react-navigation/stack'
 
-import { HomeScreen } from 'src/screens'
+import { ProfileScreen } from 'src/screens'
 import { MainStack } from 'src/constants'
 
 export type MainStackList = {
-  [MainStack.HOME]: undefined
+  [MainStack.PROFILE]: undefined
 }
 
 const Stack = createStackNavigator<MainStackList>()
@@ -21,7 +21,7 @@ export const Main_Stack = () => {
         cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
       }}
     >
-      <Stack.Screen name={MainStack.HOME} component={HomeScreen} />
+      <Stack.Screen name={MainStack.PROFILE} component={ProfileScreen} />
     </Stack.Navigator>
   )
 }

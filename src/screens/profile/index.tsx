@@ -5,12 +5,12 @@ import { StackScreenProps } from '@react-navigation/stack'
 import { MainStackList } from 'src/navigation'
 import { MainStack } from 'src/constants'
 
-export const HomeScreen: FC<
-  StackScreenProps<MainStackList, MainStack.HOME>
+export const ProfileScreen: FC<
+  StackScreenProps<MainStackList, MainStack.PROFILE>
 > = () => {
   return (
     <View>
-      <Text>home</Text>
+      <Text>profile</Text>
     </View>
   )
 }

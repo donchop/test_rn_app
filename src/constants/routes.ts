@@ -1,8 +1,8 @@
 export enum AuthStack {
+  HOME = 'home',
   LOGIN = 'login',
 }
 
 export enum MainStack {
-  HOME = 'home',
-  CLINIC_NOTES = 'clinicNotes',
+  PROFILE = 'profile',
 }
