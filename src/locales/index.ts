@@ -29,12 +29,3 @@ export default i18next
       },
     },
   })
-
-type DefaultLocale = typeof en.translation
-export type TxKeyPath = RecursiveKeyOf<DefaultLocale>
-
-type RecursiveKeyOf<TObj extends Record<string, any>> = {
-  [TKey in keyof TObj & string]: TObj[TKey] extends Record<string, any>
-    ? `${TKey}` | `${TKey}.${RecursiveKeyOf<TObj[TKey]>}`
-    : `${TKey}`
-}[keyof TObj & string]

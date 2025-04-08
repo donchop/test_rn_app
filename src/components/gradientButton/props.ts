@@ -6,7 +6,7 @@ import {
   ViewStyle,
 } from 'react-native'
 
-import { TxKeyPath } from 'src/locales'
+import { TxKeyPath } from 'src/models'
 
 import { ButtonPresetNames } from './presets'
 

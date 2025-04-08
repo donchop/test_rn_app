@@ -5,8 +5,9 @@ export default {
       telephoneShort: 't',
     },
     errors: {
-      requiredField: 'This field is required',
-      invalidEmail: 'Email is not valid',
+      requiredUserName: 'Username is required',
+      requiredPassword: 'Password is required',
+      minLengthUsername: 'Username must be not less than {{value}} characters',
       wentWrong: 'Something went wrong',
     },
     inputs: {

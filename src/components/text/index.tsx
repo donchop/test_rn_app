@@ -7,7 +7,7 @@ import {
 } from 'react-native'
 import { useTranslation } from 'react-i18next'
 
-import { TxKeyPath } from 'src/locales'
+import { TxKeyPath } from 'src/models'
 
 import { presets, weightPresets, TextPresets, WeightPresets } from './presets'
 
