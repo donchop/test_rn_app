@@ -1,5 +1,5 @@
 import React, { FC, useCallback } from 'react'
-import { Text, View } from 'react-native'
+import { View } from 'react-native'
 import { StackScreenProps } from '@react-navigation/stack'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'

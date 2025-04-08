@@ -10,6 +10,7 @@ import { AuthStack } from 'src/constants'
 export type AuthStackList = {
   [AuthStack.HOME]: undefined
   [AuthStack.LOGIN]: undefined
+  [AuthStack.SPLASH]: undefined
 }
 
 const Stack = createStackNavigator<AuthStackList>()
