@@ -8,6 +8,7 @@ export const setToken = async (token: string) => {
 
 export const getToken = async () => {
   const credentials = await Keychain.getGenericPassword()
+
   return credentials ? credentials.password : null
 }
 

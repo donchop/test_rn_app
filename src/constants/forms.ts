@@ -1,5 +1,5 @@
 export enum LoginFields {
-  USER_NAME = 'userName',
+  USER_NAME = 'username',
   PASSWORD = 'password',
 }
 

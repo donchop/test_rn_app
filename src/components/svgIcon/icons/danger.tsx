@@ -3,9 +3,16 @@ import Svg, { SvgProps, Path } from 'react-native-svg'
 
 function SvgComponent(props: SvgProps) {
   return (
-    <Svg viewBox="0 0 20 20" width={20} height={20} fill="none" {...props}>
+    <Svg
+      viewBox="0 0 20 20"
+      width={20}
+      height={20}
+      fill={props.color}
+      {...props}
+    >
       <Path
-        stroke="#fff"
+        stroke={props.color}
+        fill="none"
         strokeLinejoin="round"
         strokeWidth={1.96}
         d="M9.82 18.64c2.436 0 4.64-.987 6.237-2.583A8.792 8.792 0 0 0 18.64 9.82c0-2.436-.987-4.64-2.583-6.237A8.792 8.792 0 0 0 9.82 1c-2.436 0-4.64.987-6.237 2.583A8.792 8.792 0 0 0 1 9.82c0 2.436.987 4.64 2.583 6.237A8.792 8.792 0 0 0 9.82 18.64Z"

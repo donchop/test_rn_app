@@ -3,7 +3,6 @@ import {
   CardStyleInterpolators,
   createStackNavigator,
 } from '@react-navigation/stack'
-
 import { HomeScreen, LoginScreen } from 'src/screens'
 import { AuthStack } from 'src/constants'
 

@@ -9,11 +9,16 @@ const BASE: TextStyle = {
 
 export const presets: {
   default: TextStyle
+  h3: TextStyle
   small: TextStyle
 } = {
   default: {
     ...BASE,
     fontSize: 16,
+  },
+  h3: {
+    ...BASE,
+    fontSize: 18,
   },
   small: {
     ...BASE,

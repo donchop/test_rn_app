@@ -22,5 +22,9 @@ export default {
     loginScreen: {
       btn: 'Login',
     },
+    profileScreen: {
+      logout: 'Logout',
+      headerTitle: 'Hi, {{value}}!',
+    },
   },
 }

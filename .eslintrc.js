@@ -20,9 +20,9 @@ module.exports = {
       'error',
       {
         blankLine: 'always',
-        prev: '*',
+        prev: '',
         next: 'return',
       },
     ],
   },
-};
+}
