@@ -1,6 +1,5 @@
 import axios from 'axios'
-
-const BASE_URL = 'https://dummyjson.com'
+import { STAGE_URL } from 'react-native-dotenv'
 
 let currentToken: string | null = null
 let currentLogout: (() => Promise<void>) | null = null
@@ -14,7 +13,7 @@ export const setAuthData = (
 }
 
 const client = axios.create({
-  baseURL: BASE_URL,
+  baseURL: STAGE_URL,
   responseType: 'json',
 })
 
