@@ -14,10 +14,7 @@ export const formatProfileDto = (dto: IProfileDto): IProfile => {
 export const useProfile = () => {
   return useQuery({
     queryKey: ['profile'],
-    queryFn: async () => {
-      const dto = await getProfile()
-
-      return formatProfileDto(dto.data)
-    },
+    queryFn: getProfile,
+    select: (data) => formatProfileDto(data),
   })
 }
